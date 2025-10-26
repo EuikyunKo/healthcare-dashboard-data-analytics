@@ -9,10 +9,10 @@
 The goal is to uncover **insights into hospital readmissions** among diabetic patients by exploring relationships between demographics, admissions, and medication patterns.
 
 
-This project demonstrates an **end-to-end healthcare analytics workflow** — from **massive data wrangling (100k+ observations and approximately 50 features) with Pandas** to **interactive visualization in Power BI** — using the **Diabetes 130-US Hospitals 1999-2008** dataset from [Kaggle](https://www.kaggle.com/datasets/brandao/diabetes).
+This project demonstrates an **end-to-end healthcare analytics workflow** — from **massive data wrangling (100k+ observations and approximately 50 features) with Pandas** to **interactive visualization in Power BI** — using the **Diabetes 130-US Hospitals** dataset from [Kaggle](https://www.kaggle.com/datasets/brandao/diabetes).
 
 
-The project analyzes the **Diabetes 130-US Hospitals dataset (1999–2008)** from Kaggle to uncover key patterns in **readmission rates**, **patient demographics**, and **treatment insights**.  
+The project analyzes the **Diabetes 130-US Hospitals dataset** from Kaggle to uncover key patterns in **readmission rates**, **patient demographics**, and **treatment insights**.  
 The final outcome is an **interactive Power BI dashboard** that allows healthcare stakeholders to explore insights that can improve patient outcomes and reduce readmissions.
 
 ---
@@ -97,9 +97,9 @@ The dashboard was designed in four pages to simulate a **real-world healthcare a
 | Page | Screenshot |
 |------|-------------|
 | Overview | ![Overview Page](images/overview_page.png) |
-| Admissions Insights | ![Admissions Insights](images/admissions_insights.png) |
-| Demographics Insights | ![Demographics Insights](images/demographics_insights.png) |
-| Medications Insights | ![Medications Insights](images/medications_insights.png) |
+| Admissions Insights | ![Admissions Insights](images/admissions_page.png) |
+| Demographics Insights | ![Demographics Insights](images/demographics_page.png) |
+| Medications Insights | ![Medications Insights](images/medications_page.png) |
 
 ---
 
@@ -110,20 +110,13 @@ The dashboard was designed in four pages to simulate a **real-world healthcare a
 - Readmissions are more common in patients with **longer hospital stays** and **multiple diagnoses**.  
 - Medical specialties such as **Internal Medicine** and **Cardiology** show the **highest recurrence**.
 
----
-
-## Learning Outcomes
-
-- Data Cleaning and EDA with pandas & matplotlib  
-- Power BI Data Modeling (Relationships, Measures, Drill-Through Pages)  
-- Designing KPI Cards and Multi-Page Healthcare Dashboards  
-- Communicating actionable healthcare insights effectively  
 
 ---
 
 ## Dataset Source
 
 [Kaggle — Diabetes 130-US hospitals for years 1999–2008 Data Set](https://www.kaggle.com/datasets/uciml/diabetes-130-us-hospitals-for-years-19992008)
+[UCI Machine Learning Repository  — Diabetes 130-US Hospitals for Years 1999-2008](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
 
 ---
 
